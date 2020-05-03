@@ -17,3 +17,21 @@ make compress   # Opcional, para comprimir el pdf
 make clean      # Opcional, para eliminar los ficheros auxiliares generados por LaTeX
 ```
 
+# Description (In English)
+
+In this repository you can find the LaTeX source files for compiling my PhD. thesis.
+
+For build it, you need the following software installed:
++ XeLaTex
++ Biber
++ GhostScript (optional, for compressing the PDF)
+
+Building the thesis is very easy as a Makefile is provided. The options are the following:
+
+```
+make build      
+make compress   
+make clean
+```
+
+
